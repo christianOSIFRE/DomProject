@@ -5,16 +5,13 @@
 
 	"repository": {
 	  "type": "git",
-	  "url": "git://github.com/foo/bar.git"
-	}
+	  "url": "https://github.com/christianOSIFRE/DomProject.git"
+	},
 	
     "name": "DomProject",
     "dependencies": {
-        "angular": "latest",
-        "html5shiv": "latest",
-        "box-sizing-polyfill": "latest",
-        "modernizr": "latest",
-        "jquery": "1.10.2"
+        "angular": "1.3.0-beta.16",
+        "bootstrap": "latest"
     }
 
 }
