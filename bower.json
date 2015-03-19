@@ -1,0 +1,20 @@
+{
+	"authors": {
+	  "Christian Osifre": "Christian Osifre <christianosifre@gmail.com>"
+	},
+
+	"repository": {
+	  "type": "git",
+	  "url": "git://github.com/foo/bar.git"
+	}
+	
+    "name": "DomProject",
+    "dependencies": {
+        "angular": "latest",
+        "html5shiv": "latest",
+        "box-sizing-polyfill": "latest",
+        "modernizr": "latest",
+        "jquery": "1.10.2"
+    }
+
+}
