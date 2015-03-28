@@ -1,12 +1,21 @@
 {
-    "name": "DomProject",
-    "version":"1.0.0",
-    "description": "Site Dom Gilbertson",
-    "dependencies": {
-        "socket.io": "latest",
-        "express": "latest",
-        "jade": "latest"
-    },
-    "author": "Christian Osifre",
-    "private": true
+  "name": "DomProject",
+  "version": "1.0.0",
+  "description": "Site Dom Gilbertson",
+  "dependencies": {
+    "socket.io": "latest",
+    "express": "latest",
+    "jade": "latest"
+  },
+  "author": "Christian Osifre",
+  "private": true,
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "grunt": "^0.4.5",
+    "grunt-bower-requirejs": "^2.0.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-less": "~0.8.2",
+    "grunt-contrib-uglify": "latest",
+    "grunt-wiredep": "^2.0.0"
+  }
 }
