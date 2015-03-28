@@ -1,0 +1,109 @@
+{
+	"TEST": "test01",
+	"HEADER": {
+		"NAV": {
+			"TITLE": "Tapage Nocturne",
+			"LOGO": "",
+			"ITEM1": {
+				"LABEL": "HOME",
+				"ICONE": "",
+				"IMG": "",
+				"RESUM": ""
+		    },
+			"ITEM2": {
+				"LABEL": "COURS",
+				"ICONE": "",
+				"IMG": "",
+				"RESUM": ""
+		    },
+			"ITEM3": {
+				"LABEL": "",
+				"ICONE": "",
+				"IMG": "",
+				"RESUM": ""
+		    },
+			"ITEM4": {
+				"LABEL": "",
+				"ICONE": "",
+				"SUBITEM1": {
+					"LABEL": "",
+					"ICONE": "",
+					"IMG": "",
+					"RESUM": "",
+					"BORDER": false 
+				},
+				"SUBITEM2": {
+					"LABEL": "",
+					"ICONE": "",
+					"IMG": "",
+					"RESUM": "",
+					"BORDER": false 
+				},
+				"SUBITEM3": {
+					"LABEL": "",
+					"ICONE": "",
+					"IMG": "",
+					"RESUM": "",
+					"BORDER": false 
+				},"SUBITEM4": {
+					"LABEL": "",
+					"ICONE": "",
+					"IMG": "",
+					"RESUM": "",
+					"BORDER": false 
+				},"SUBITEM5": {
+					"LABEL": "",
+					"ICONE": "",
+					"IMG": "",
+					"RESUM": "",
+					"BORDER": true 
+				}
+			}
+		},
+
+		"CAROUSEL": {
+			"CTRL": {
+
+			},
+			"SLIDE1": {
+				"TITLE": "",
+				"SUBTITLE": "",
+				"IMG": "",
+				"RESUM": "",
+				"TARGET": ""
+			},
+			"SLIDE2": {
+				"TITLE": "",
+				"SUBTITLE": "",
+				"IMG": "",
+				"RESUM": "",
+				"TARGET": ""
+			},
+			"SLIDE3": {
+				"TITLE": "",
+				"SUBTITLE": "",
+				"IMG": "",
+				"RESUM": "",
+				"TARGET": ""
+			}
+
+		}
+	},
+	"MAIN": {
+
+	},
+	"FOOTER": {
+
+	},
+	"UTIL": {
+		"MORE": "en savoir plus",
+		"NEXT": "Suivant",
+		"PREVIEW": "Précedant",
+		"VALID": "Valider",
+		"CANCEL": "Annuler",
+		"CLOSE": "Fermer",
+		"DELETE": "Supprimer",
+		"ADD": "Ajouter",
+		"CREATE": "Créer"
+	}
+}

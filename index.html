@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="dom">
+ <head>
+  <title>Dom Gibertson</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <!-- endbower -->
+  <link rel="stylesheet" type="text/css" href="dist/style/style.css">
+ </head>
+  <body id="index" ng-controller="mainCtrl">
+    <header class="row">
+      <div ng-include="path('nav')"></div>
+      <div ng-if="showCarousel" ng-include="path('carousel')"></div>
+    </header>
+    <div class="row container">
+        <div ng-view></div>
+         <footer>
+          <p class="pull-right"><a href="#">Back to top</a></p>
+          <p>© 2015 GraphikOz, Inc. · <a href="#">Terms</a></p>
+         </footer>
+    </div>
+   
+
+	   
+ </body>
+
+<!-- bower:js -->
+<script src="bower_components/jquery/jquery.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-translate/angular-translate.js"></script>
+<script src="bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
+<!-- endbower -->
+
+ <script src="dist/js/built.js"></script>
+
+</html>
