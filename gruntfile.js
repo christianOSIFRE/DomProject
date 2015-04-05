@@ -16,6 +16,7 @@ module.exports = function(grunt) {
       dist: {
         src: [
           'src/app/app.js', 
+          'src/app/**/*js',
           'src/templates/**/*.js'
         ],
         dest: 'dist/js/built.js' 
@@ -58,6 +59,7 @@ module.exports = function(grunt) {
 	      'app/config.yml',         // and .yml & .yaml support out of the box!
 	      'bower_components/**/*.js',
 	     // 'bower_components/**/**/*.js',
+        'src/index.html',
 	      'index.html'
 	    ],
 

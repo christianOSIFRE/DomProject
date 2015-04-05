@@ -1,24 +1,47 @@
-body {
-	background: #222;
-}
-
-.container{
-	margin: auto;
-}
-
-h1{
-	color: #ddd;
-}
-
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
 body {
+  background: #222;
   padding-bottom: 40px;
   color: #5a5a5a;
+
+  .container{
+    margin: auto;
+    .view-content {
+      min-height: 400px;
+      background-color: #EFEFEF;
+      display: inline-block;
+      padding: 25px;
+      &.top85 {
+        margin-top: 85px;
+      }
+
+      .featurette-heading{
+        padding: 15px;
+        color: #fff;
+        display: inline-block;
+        margin-top: 10px;
+        background-color: #000;
+      }
+    }
+  }
+
+  h1{
+    color: #ddd;
+  }
+
 }
 
+
+.navbar-brand {
+  img {
+    position: relative;
+    width: 80%;
+    top: -25px;
+  }
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -52,7 +75,7 @@ body {
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -148,3 +171,4 @@ body {
     margin-top: 120px;
   }
 }
+

@@ -15,7 +15,7 @@
       <div ng-if="showCarousel" ng-include="path('carousel')"></div>
     </header>
     <div class="row container">
-        <div ng-view></div>
+        <div ng-view class="view-content" ng-class="{'top85': !showCarousel}"></div>
          <footer>
           <p class="pull-right"><a href="#">Back to top</a></p>
           <p>© 2015 GraphikOz, Inc. · <a href="#">Terms</a></p>
